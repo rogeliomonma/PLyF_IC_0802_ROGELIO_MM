@@ -22,7 +22,7 @@ public class FP_Functional_Excercises {
     private static void NumerosImpares(List<Integer> numeros){
         numeros.stream().filter(number -> number % 2 != 0).forEach(number -> System.out.print("\t"+"["+number+"]"+" "));
         //.stream().filter() Permite realizar un filtro de datos dentro de una lista buscando que no sea numero par con la aplicacion de un
-        //modulo de 2 realizamos el rrecorrido de esa lista fon un forEach.
+        //modulo de 2 realizamos el rrecorrido de esa lista con un forEach.
     }
 
     private static void Impresion_de_cursos(List<String> cursos){
